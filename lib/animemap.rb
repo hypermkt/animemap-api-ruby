@@ -1,5 +1,5 @@
 require "animemap/version"
+require "animemap/client"
 
 module Animemap
-  # Your code goes here...
 end

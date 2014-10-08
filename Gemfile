@@ -1,4 +1,3 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in animemap.gemspec
-gemspec
+gem 'faraday'
