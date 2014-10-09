@@ -14,10 +14,9 @@ module Animemap
 
     def find_programs_by_area(area)
       res = @connection.get '/api/table/' + area + '.json'
-      if res.success? then
-        body = JSON.parse(res.body, :symbolize_names => true)
-        return body[:response][:item]
-      end
+      return "" unless res.success?
+      body = JSON.parse(res.body, :symbolize_names => true)
+      body[:response][:item]
     end
   end
 end
