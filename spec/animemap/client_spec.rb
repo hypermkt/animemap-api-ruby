@@ -10,5 +10,16 @@ describe Animemap::Client do
 
       it { expect(res[0]).to have_key(:title) }
     end
+
+    context '異常系' do
+      context '対象エリアが不正な場合' do
+        let(:res) do
+          c = Animemap::Client.new
+          c.find_programs_by_area('hawaii')
+        end
+
+        it { expect(res).to be_nil }
+      end
+    end
   end
 end
