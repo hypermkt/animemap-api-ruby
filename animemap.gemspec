@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'animemap/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "animemap"
+  spec.name          = "animemap-api-ruby"
   spec.version       = Animemap::VERSION
   spec.authors       = ["Makoto Chiba"]
   spec.email         = ["hypermkt@gmail.com"]
