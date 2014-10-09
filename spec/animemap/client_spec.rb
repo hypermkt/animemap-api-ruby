@@ -18,7 +18,7 @@ describe Animemap::Client do
           c.find_programs_by_area('hawaii')
         end
 
-        it { expect(res).to be_nil }
+        it { expect(res).to be_empty }
       end
     end
   end
