@@ -1,6 +1,6 @@
-# Animemap [![Build Status](https://travis-ci.org/hypermkt/animemap-api-ruby.svg?branch=add-test)](https://travis-ci.org/hypermkt/animemap-api-ruby)
+# animemap-api-ruby [![Build Status](https://travis-ci.org/hypermkt/animemap-api-ruby.svg?branch=add-test)](https://travis-ci.org/hypermkt/animemap-api-ruby)
 
-TODO: Write a gem description
+animemap-api-ruby is a ruby client for [Anime TV Program API](http://animemap.net/pages/api/).
 
 ## Installation
 
@@ -15,10 +15,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install animemap
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
