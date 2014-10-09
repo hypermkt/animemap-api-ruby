@@ -1,4 +1,4 @@
-# Animemap
+# Animemap [![Build Status](https://travis-ci.org/hypermkt/animemap-api-ruby.svg?branch=add-test)](https://travis-ci.org/hypermkt/animemap-api-ruby)
 
 TODO: Write a gem description
 
