@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Animemap::VERSION
   spec.authors       = ["Makoto Chiba"]
   spec.email         = ["hypermkt@gmail.com"]
-  spec.summary       = %q{A PHP client for ANIMEMAP API}
-  spec.description   = %q{A PHP client for ANIMEMAP API}
-  spec.homepage      = "https://github.com/hypermkt"
+  spec.summary       = %q{A ruby client for Anime TV Program API.}
+  spec.description   = %q{A ruby client for Anime TV Program API.}
+  spec.homepage      = "https://github.com/hypermkt/animemap-api-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
