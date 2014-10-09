@@ -6,7 +6,7 @@ animemap-api-ruby is a ruby client for [Anime TV Program API](http://animemap.ne
 
 Add this line to your application's Gemfile:
 
-    gem 'animemap'
+    gem 'animemap-api-ruby'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install animemap
+    $ gem install animemap-api-ruby
 
 ## Contributing
 
